@@ -234,7 +234,7 @@ class Userfrontend extends CI_Controller {
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Content-Type: application/json",
-            "Authorization: Bearer si79hFprJjzIahruAdp0rIDlko7noVf76KHhhzfY"
+            "Authorization: Bearer xxxx"
         ));
 
         $response = json_decode(curl_exec($ch));
@@ -283,7 +283,7 @@ class Userfrontend extends CI_Controller {
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Content-Type: application/json",
-            "Authorization: Bearer si79hFprJjzIahruAdp0rIDlko7noVf76KHhhzfY"
+            "Authorization: Bearer xxxxx"
         ));
 
         $response = json_decode(curl_exec($ch));
@@ -309,7 +309,7 @@ class Userfrontend extends CI_Controller {
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Content-Type: application/json",
-            "Authorization: Bearer si79hFprJjzIahruAdp0rIDlko7noVf76KHhhzfY"
+            "Authorization: Bearer xxxxx"
         ));
 
         $response = json_decode(curl_exec($ch));
@@ -336,7 +336,7 @@ class Userfrontend extends CI_Controller {
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Content-Type: application/json",
-            "Authorization: Bearer si79hFprJjzIahruAdp0rIDlko7noVf76KHhhzfY"
+            "Authorization: Bearer xxxxxxxx"
         ));
 
         $response = json_decode(curl_exec($ch));
@@ -366,7 +366,7 @@ class Userfrontend extends CI_Controller {
 
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Content-Type: application/json",
-            "Authorization: Bearer si79hFprJjzIahruAdp0rIDlko7noVf76KHhhzfY"
+            "Authorization: Bearer xxxxx"
         ));
 
         $response = json_decode(curl_exec($ch));
@@ -435,7 +435,7 @@ class Userfrontend extends CI_Controller {
         curl_setopt($ch, CURLOPT_HEADER, FALSE);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             "Content-Type: application/json",
-            "Authorization: Bearer si79hFprJjzIahruAdp0rIDlko7noVf76KHhhzfY"
+            "Authorization: Bearer xxxxxx"
         ));
 
         $response   = curl_exec($ch);
